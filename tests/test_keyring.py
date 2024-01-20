@@ -409,12 +409,12 @@ def test_convert_signature_packet(
         (
             Path("foo.asc"),
             [
-                Path("--PublicKey"),
-                Path("--Signature"),
-                Path("--UserID"),
-                Path("--UserAttribute"),
-                Path("--PublicSubkey"),
-                Path("--Signature"),
+                Path(keyring.PacketType.PUBLIC_KEY.value),
+                Path(keyring.PacketType.SIGNATURE.value),
+                Path(keyring.PacketType.USER_ID.value),
+                Path(keyring.PacketType.USER_ATTRIBUTE.value),
+                Path(keyring.PacketType.PUBLIC_SUBKEY.value),
+                Path(keyring.PacketType.SIGNATURE.value),
             ],
             [
                 "".join(choice("ABCDEF" + digits) for _ in range(40)),
@@ -427,10 +427,10 @@ def test_convert_signature_packet(
         (
             Path("foo.asc"),
             [
-                Path("--PublicKey"),
-                Path("--Signature"),
-                Path("--UserID"),
-                Path("--UserID"),
+                Path(keyring.PacketType.PUBLIC_KEY.value),
+                Path(keyring.PacketType.SIGNATURE.value),
+                Path(keyring.PacketType.USER_ID.value),
+                Path(keyring.PacketType.USER_ID.value),
             ],
             [
                 "".join(choice("ABCDEF" + digits) for _ in range(40)),
@@ -443,7 +443,7 @@ def test_convert_signature_packet(
         (
             Path("foo.asc"),
             [
-                Path("--SecretKey"),
+                Path(keyring.PacketType.SECRET_KEY.value),
             ],
             [],
             None,
@@ -461,7 +461,7 @@ def test_convert_signature_packet(
         (
             Path("foo.asc"),
             [
-                Path("--PublicKey"),
+                Path(keyring.PacketType.PUBLIC_KEY.value),
             ],
             [
                 None,
