@@ -71,7 +71,7 @@ def verify(  # noqa: ignore=C901
                 keyring_fd = Popen(("sq", "dearmor", f"{str(keyring_path)}"), stdout=PIPE)
                 print(system(["hokey", "lint"], _stdin=keyring_fd.stdout), end="")
             if lint_sq_keyring:
-                print(system(["sq", "keyring", "lint", f"{str(keyring_path)}"]), end="")
+                print(system(["sq", "toolbox", "keyring", "lint", f"{str(keyring_path)}"]), end="")
 
 
 def verify_integrity(certificate: Path, all_fingerprints: Set[Fingerprint]) -> None:  # noqa: ignore=C901
