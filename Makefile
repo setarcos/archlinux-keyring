@@ -39,7 +39,7 @@ test:
 	coverage report --fail-under=100.0
 
 build: $(SOURCES)
-	./keyringctl -v $(BUILD_DIR)
+	./keyringctl -v build
 
 wkd: build
 	sq -f wkd generate -s $(WKD_BUILD_DIR)/ $(WKD_FQDN) $(BUILD_DIR)/$(KEYRING_FILE)
