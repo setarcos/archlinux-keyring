@@ -42,7 +42,7 @@ build: $(SOURCES)
 	./keyringctl -v build
 
 wkd: build
-	sq -f wkd generate -s $(WKD_BUILD_DIR)/ $(WKD_FQDN) $(BUILD_DIR)/$(KEYRING_FILE)
+	sq -f network wkd generate -s $(WKD_BUILD_DIR)/ $(WKD_FQDN) $(BUILD_DIR)/$(KEYRING_FILE)
 
 wkd_inspect: wkd
 	for file in $(WKD_BUILD_DIR)/.well-known/openpgpkey/$(WKD_FQDN)/hu/*; do sq inspect $$file; done
