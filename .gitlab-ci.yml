@@ -9,6 +9,7 @@ lint:
   stage: test
   needs: []
   before_script:
+    - pacman-key --init
     - pacman -Syu --needed --noconfirm make flake8 mypy python-black python-isort
   script:
     - make lint
@@ -24,6 +25,7 @@ test:
   stage: test
   needs: []
   before_script:
+    - pacman-key --init
     - pacman -Syu --needed --noconfirm make python sequoia-sq python-coverage python-pytest python-tomli
   script:
     - make test
@@ -47,19 +49,17 @@ build_install:
   stage: test
   needs: []
   before_script:
+    - pacman-key --init
     - pacman -Syu --needed --noconfirm make pkgconf python sequoia-sq systemd
   script:
     - make
     - make install PREFIX=/usr
-    - pacman-key --init
-    - pacman-key --populate archlinux
-    - pacman-key --updatedb
-    - pacman -Syu
 
 keyring_check:
   stage: test
   needs: []
   before_script:
+    - pacman-key --init
     - pacman -Syu --needed --noconfirm make python sequoia-sq git
   script:
     - ./keyringctl check
@@ -79,6 +79,7 @@ pages:
   tags:
     - secure
   before_script:
+    - pacman-key --init
     - pacman -Syu --needed --noconfirm make python sequoia-sq
   script:
     - make wkd
