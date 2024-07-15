@@ -28,7 +28,7 @@ issue and assign relevant users.
 
 ### Main key holders
 
-- [ ] There are more than or equal to three valid main keys remaining after
+- [ ] There are more than or equal to four valid main keys remaining after
   removal of this key.
 - [ ] All packagers have at least three valid main key signatures for their
   packager key after removal of this key.
