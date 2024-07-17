@@ -1,15 +1,10 @@
 <!--
-This template is used when an existing main PGP public key needs to be removed
-from the distribution's keyring.
-It is used by users with a valid main key after all steps in an accompanying
-issue (opened with the template "Remove Main Key") have been fulfilled.
+This template is used when an existing main PGP public key needs to be removed from the distribution's keyring.
+It is used by users with a valid main key after all steps in an accompanying issue (opened with the template "Remove Main Key") have been fulfilled.
 -->
 /label ~"remove main key"
 /title Remove main key of <!-- MODIFY: Add the main key holder's username -->
-<!--
-Please do not remove the above quick actions, which automatically label the
-issue and assign relevant users.
--->
+<!-- Please do not remove the above quick actions, which automatically label the issue and assign relevant users. -->
 
 # Remove a main key
 
@@ -24,7 +19,5 @@ Related issue: <!-- MODIFY: Add #-prefixed issue number -->
 
 ### Keyring maintainer
 
-- [ ] There are more than or equal to three valid main keys remaining after
-  removal of this key.
-- [ ] All packagers have at least three valid main key signatures for their
-  packager key after removal of this key.
+- [ ] There are more than or equal to three valid main keys remaining after removal of this key.
+- [ ] All packagers have at least three valid main key signatures for their packager key after removal of this key.

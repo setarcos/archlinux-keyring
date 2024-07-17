@@ -1,16 +1,12 @@
 <!--
-This template is used when a new main PGP public key needs to be added to the
-distribution's keyring.
-It is used by users with a valid packager key after all steps in an
-accompanying issue (opened with the template "New Main Key") have been
-fulfilled.
+This template is used when a new main PGP public key needs to be added to the distribution's keyring.
+It is used by users with a valid packager key after all steps in an accompanying issue (opened with the template "New Main Key") have been fulfilled.
 -->
+
 /label ~"new main key"
 /title Add main key of <!-- MODIFY: Add the main key holder's username -->
-<!--
-Please do not remove the above quick actions, which automatically label the
-issue and assign relevant users.
--->
+
+<!-- Please do not remove the above quick actions, which automatically label the issue and assign relevant users. -->
 
 # Add a new main key
 

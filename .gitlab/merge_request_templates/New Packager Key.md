@@ -1,16 +1,12 @@
 <!--
-This template is used when a new packager PGP public key needs to be added to
-the distribution's keyring.
-It is either used by the sponsor of a new packager or by an existing packager
-when adding a new key for themself after all steps in an accompanying issue
-(opened with the template "New Packager Key") have been fulfilled..
+This template is used when a new packager PGP public key needs to be added to the distribution's keyring.
+It is either used by the sponsor of a new packager or by an existing packager when adding a new key for themself after all steps in an accompanying issue (opened with the template "New Packager Key") have been fulfilled.
 -->
+
 /label ~"new packager key"
 /title Add packager key of <!-- MODIFY: Add the packager key holder's username -->
-<!--
-Please do not remove the above quick actions, which automatically label the
-issue and assign relevant users.
--->
+
+<!-- Please do not remove the above quick actions, which automatically label the issue and assign relevant users. -->
 
 # Add a new packager key
 

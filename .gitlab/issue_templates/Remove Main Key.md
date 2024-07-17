@@ -1,20 +1,16 @@
 <!--
-This template is used when an existing main PGP public key needs to be removed
-from the distribution's keyring.
-It is used by users with a valid main key or the holder of the revocation
-certificate of the main key that is about to be removed.
+This template is used when an existing main PGP public key needs to be removed from the distribution's keyring.
+It is used by users with a valid main key or the holder of the revocation certificate of the main key that is about to be removed.
 
-NOTE: All comment sections with a MODIFY note need to be edited. All checkboxes
-in the "Check" section labeled as "Main key holders" need to be checked for the
-accompanying merge request to be merged.
+NOTE: All comment sections with a MODIFY note need to be edited.
+      All checkboxes in the "Check" section labeled as "Main key holders" need to be checked for the accompanying merge request to be merged.
 -->
+
 /assign @archlinux/teams/main-key-holders
 /label ~"remove main key"
 /title Remove main key of <!-- MODIFY: Add main key holder's username -->
-<!--
-Please do not remove the above quick actions, which automatically label the
-issue and assign relevant users.
--->
+
+<!-- Please do not remove the above quick actions, which automatically label the issue and assign relevant users. -->
 
 # Remove a main key
 
@@ -28,11 +24,8 @@ issue and assign relevant users.
 
 ### Main key holders
 
-- [ ] There are more than or equal to four valid main keys remaining after
-  removal of this key.
-- [ ] All packagers have at least three valid main key signatures for their
-  packager key after removal of this key.
-- [ ] A merge request to [remove the main public key]
-  has been created
+- [ ] There are more than or equal to four valid main keys remaining after removal of this key.
+- [ ] All packagers have at least three valid main key signatures for their packager key after removal of this key.
+- [ ] A merge request to [remove the main public key] has been created
 
 [remove the main public key]: https://gitlab.archlinux.org/archlinux/archlinux-keyring/-/wikis/workflows/remove-a-main-key 
