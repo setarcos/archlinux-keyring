@@ -133,9 +133,6 @@ Christian Hesse <eworm@archlinux.org>
 David Runge <dvzrv@archlinux.org>
 991F 6E3F 0765 CF62 9588  8586 139B 09DA 5BF0 D338
 
-Florian Pritz <bluewind@archlinux.org>
-CFA6 AF15 E5C7 4149 FC1D  8C08 6D16 55C1 4CE1 C13E
-
 Johannes Löthberg <demize@archlinux.org>
 5134 EF9E AF65 F95B 6BB1  608E 50FB 9B27 3A9D 0BB5
 
