@@ -32,6 +32,7 @@ issue and assign relevant users.
   removal of this key.
 - [ ] All packagers have at least three valid main key signatures for their
   packager key after removal of this key.
-- [ ] A merge request to [remove the main public
-  key](https://gitlab.archlinux.org/archlinux/archlinux-keyring/-/wikis/workflows/remove-a-main-key)
+- [ ] A merge request to [remove the main public key]
   has been created
+
+[remove the main public key]: https://gitlab.archlinux.org/archlinux/archlinux-keyring/-/wikis/workflows/remove-a-main-key 

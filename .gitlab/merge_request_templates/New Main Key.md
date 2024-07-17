@@ -29,5 +29,6 @@ Closes <!-- MODIFY: Add #-prefixed issue number, that will be closed by merging 
 
 ### Main key holders
 
-- [ ] The public key has been validated according to the [best
-  practices](https://gitlab.archlinux.org/archlinux/archlinux-keyring/-/wikis/best-practices#validating-a-key-pair)
+- [ ] The public key has been validated according to the [best practices]
+
+[best practices](https://gitlab.archlinux.org/archlinux/archlinux-keyring/-/wikis/best-practices#validating-a-key-pair)

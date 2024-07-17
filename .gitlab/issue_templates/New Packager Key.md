@@ -49,14 +49,12 @@ the details section.
 
 ### Owner of new key
 
-- [ ] The [workflow for adding a new packager
-  key](https://gitlab.archlinux.org/archlinux/archlinux-keyring/-/wikis/workflows/add-a-new-packager-key)
+- [ ] The [workflow for adding a new packager key]
   has been followed
 - [ ] The key pair contains one user ID with a valid `<username>@archlinux.org` email address
   used for signing
-- [ ] The key pair has been validated according to the [best
-  practices](https://gitlab.archlinux.org/archlinux/archlinux-keyring/-/wikis/best-practices#validating-a-key-pair)
-- [ ] The data in the [Details](#details) section is attached to this issue as
+- [ ] The key pair has been validated according to the [best practices]
+- [ ] The data in the [Details] section is attached to this issue as
   a clearsigned document
 - [ ] The public key has been uploaded to the `keyserver.ubuntu.com` and
   `keys.openpgp.org` keyservers, and the `archlinux.org` UID has been verified
@@ -74,5 +72,10 @@ the details section.
   - [ ] @dvzrv
 
 ### Developers of the archlinux-keyring project
-- [ ] The data in the [Details](#details) section is correct and signed with a
+- [ ] The data in the [Details] section is correct and signed with a
   valid and trusted packager key, which is already part of `archlinux-keyring`
+
+[workflow for adding a new main key]: https://gitlab.archlinux.org/archlinux/archlinux-keyring/-/wikis/workflows/add-a-new-main-key
+[best practices]: https://gitlab.archlinux.org/archlinux/archlinux-keyring/-/wikis/best-practices#validating-a-key-pair
+[Details]: #details
+[verified as working]: https://gitlab.archlinux.org/archlinux/archlinux-keyring/-/wikis/workflows/verify-a-revocation-certificate

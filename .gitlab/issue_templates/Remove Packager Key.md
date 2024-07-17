@@ -26,8 +26,7 @@ issue and assign relevant users.
 **NOTE**: The below check box **must be** checked before the main key holders
 can start to revoke the key.
 
-- [ ] There are [no packages left in any of the official
-  repositories](https://gitlab.archlinux.org/archlinux/archlinux-keyring/-/wikis/workflows/Find-packages-signed-by-a-key),
+- [ ] There are [no packages left in any of the official repositories],
   that are signed by the key or any of its subkeys, which is about to be
   removed.
 
@@ -40,3 +39,5 @@ merge request to this repository using `keyringctl`.
 - [ ] @artafinde
 - [ ] @demize
 - [ ] @dvzrv
+
+[no packages left in any of the official repositories]: https://gitlab.archlinux.org/archlinux/archlinux-keyring/-/wikis/workflows/Find-packages-signed-by-a-key

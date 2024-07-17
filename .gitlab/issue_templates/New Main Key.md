@@ -42,12 +42,10 @@ merge request to add the new main key can be merged.
 
 ### Owner of new key
 
-- [ ] The [workflow for adding a new main
-  key](https://gitlab.archlinux.org/archlinux/archlinux-keyring/-/wikis/workflows/add-a-new-main-key)
+- [ ] The [workflow for adding a new main key]
   has been followed
-- [ ] The key pair has been validated according to the [best
-  practices](https://gitlab.archlinux.org/archlinux/archlinux-keyring/-/wikis/best-practices#validating-a-key-pair)
-- [ ] The data in the [Details](#details) section is attached to this issue as
+- [ ] The key pair has been validated according to the [best practices]
+- [ ] The data in the [Details] section is attached to this issue as
   a clearsigned document
 - [ ] The revocation certificate has been sent in an encrypted message to the
   revocation certificate holder
@@ -60,8 +58,7 @@ merge request to add the new main key can be merged.
 
 ### Revocation Certificate Holder
 
-- [ ] The revocation certificate has been [verified
-  as working](https://gitlab.archlinux.org/archlinux/archlinux-keyring/-/wikis/workflows/verify-a-revocation-certificate)
+- [ ] The revocation certificate has been [verified as working]
   and confirmed in a comment to this issue
 - [ ] The revocation certificate has been backed up on a dedicated encrypted backup storage medium
 
@@ -69,3 +66,8 @@ merge request to add the new main key can be merged.
 
 - [ ] The data in the [Details](#details) section is correct and signed with a
   valid and trusted packager key, which is already part of `archlinux-keyring`
+
+[workflow for adding a new main key]: https://gitlab.archlinux.org/archlinux/archlinux-keyring/-/wikis/workflows/add-a-new-main-key
+[best practices]: https://gitlab.archlinux.org/archlinux/archlinux-keyring/-/wikis/best-practices#validating-a-key-pair
+[Details]: #details
+[verified as working]: https://gitlab.archlinux.org/archlinux/archlinux-keyring/-/wikis/workflows/verify-a-revocation-certificate
